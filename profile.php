@@ -4,73 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <title>Profile Page</title>
+
     <!-- Style CSS -->
+    <style>
 
-   <style>
+        body {
+            background-color: #16a085;
+        }
 
-     body{
-        background: #16a085;
-    }
+    </style>
 
-   </style>
 </head>
 <body>
-    
+
     <!-- Heading dengan tag HTML -->
     <h1>Profile Page</h1>
 
-    <!-- Paragraph dengan  syntax PHP -->
-
-    <?php
-        
+    <!-- Paragraph dengan syntax PHP -->
+    <?php 
 
         // menampilkan string ke layar
         echo "<p>Hello PHP!</p>";
 
         /*
-        Syntax PHP bisah di jalankan
+        Syntax PHP bisa dijalankan
         hanya di dalam dokumen
-        dengan extenxi *.php
-
+        dengan extensi *.php
         */
 
-
-        # Membuat Variabel PHP
+        # membuat variabel PHP
 
         $angka1 = 10;
         $angka2 = 5;
 
-        # Penjumlahan
+        # penjumlahan
         $jumlah = $angka1 + $angka2;
-        
-        echo = $jumlah;
+        // echo $jumlah;
 
-        # Pengurangan
-        $jumlah = $angka1 - $angka2;
-        echo = $pengurangan;
-
+        # pengurangan
+        $pengurangan = $angka1 - $angka2;
+        // echo $pengurangan;
 
     ?>
 
-
-    <h3>Hasil Penjumlahan</h3>
-
+    <h3>Hasil Penjumlahan:</h3>
     <p>
-    <?php
-        echo $jumlah;
-    ?>
+        <?php echo $jumlah; ?>
     </p>
 
-    <h3>Hasil Pegurangan</h3>
-    <?php
+    <h3>Hasil Pengurangan:</h3>
     <p>
-    echo $pengurangan;
+        <?php echo $pengurangan; ?>
     </p>
-    ?>
-
-
-
+    
 </body>
 </html>
